@@ -9,7 +9,8 @@
     margin-right: 0;
     margin-left: 0;
 }
-.navbar-default .navbar-nav .active a {
+.navbar-default .navbar-nav .active a,  
+.navbar-default .navbar-nav .active a:hover {
   color: #0C86AC;
 }
 .main-container {
@@ -21,9 +22,6 @@
 }
 .navbar-brand span {
   font-weight: bold
-}
-.blue {
-  color: #0C86AC;
 }
 .ua {
   color: #E5E110; 
@@ -51,7 +49,6 @@
   color: red;
 }
 .needs {
-  color: red;
   margin-left: 5px;
 }
 .join-info h4 {
@@ -68,10 +65,15 @@
   width: 50px;
   margin: 0 auto;
 }
+.question, .for , .options{
+  color: #0C86AC;
+}
 .answer {
   color: #555;
 }
-
+.red {
+  color: #d9534f;
+}
 /* ===============
    SOS-LOGO styles
    =============== */
@@ -118,15 +120,12 @@
     Media Queries
     ========================================================================== */
 
-@media only screen and (min-width: 480px) {
-
+@media only screen and (min-width: 1140px) {
+    
 }
-
 @media only screen and (min-width: 768px) {
 
 }
+@media only screen and (min-width: 480px) {
 
-
-@media only screen and (min-width: 1140px) {
-    
 }
