@@ -9,6 +9,9 @@
     margin-right: 0;
     margin-left: 0;
 }
+.navbar-default .navbar-nav .active a {
+  color: #0C86AC;
+}
 .main-container {
     padding-top: 50px;
 }
@@ -25,9 +28,6 @@
 .ua {
   color: #E5E110; 
 }
-#sos-link {
-  color: #000000;
-}
 .help {
     margin-top: 30px;
 }
@@ -42,7 +42,7 @@
     clear: both;
 }
 .sos {
-    color: #777777;
+    color: #777;
     min-height: 550px;
     position: relative;
     padding: 15px;
@@ -59,19 +59,22 @@
 }
 .footer-container {
     height: 50px;
-    background-color: #111111; 
-    border-top: 1px solid black;
     margin-top: -50px;
+    padding-top: 15px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+.social {
+  width: 50px;
+  margin: 0 auto;
+}
+.answer {
+  color: #555;
 }
 
 /* ===============
    SOS-LOGO styles
    =============== */
-/*@-moz-document url-prefix() { 
-  .sos-logo {
-    font-family: 'Monoton', cursive;
-  }
-}*/
 .sos-logo {
     background-color: #111111; 
     padding: 67px 40px 55px 40px;
@@ -111,7 +114,6 @@
     opacity:0.4; text-shadow: none; 
   }
 }
-
 /* ==========================================================================
     Media Queries
     ========================================================================== */
