@@ -68,8 +68,12 @@
     border-top: 1px solid #ddd;
 }
 .social {
-  width: 122px;
+  width: 226px;
   margin: 0 auto;
+}
+.fb_iframe_widget {
+  bottom: 9px;
+  left: 13px;
 }
 .question, .for , .options {
   color: #0C86AC;
