@@ -20,6 +20,9 @@
     padding-top: 20px;
     padding-bottom: 100px;
 }
+.navbar-brand  {
+  cursor: default;
+}
 .navbar-brand span {
   font-weight: bold
 }
@@ -45,6 +48,9 @@
     position: relative;
     padding: 15px;
 }
+.missing .sos {
+  min-height: 300px;
+}
 .true {
   color: red;
 }
@@ -65,11 +71,12 @@
   width: 122px;
   margin: 0 auto;
 }
-.question, .for , .options{
+.question, .for , .options {
   color: #0C86AC;
 }
 .answer {
-  color: #555;
+  color: #333;
+  font-size: 16px;
 }
 .red {
   color: #d9534f;
