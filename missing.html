@@ -20,6 +20,14 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/uk_UA/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <div class="all">
             <div class="header-container row">
                 <header class="wrapper">
@@ -97,6 +105,7 @@
                         allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20">
                     </iframe>
                     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://4ua.github.io/4ua" data-text="ТТут допомагають постраждалим. Долучайся!" data-via="4uainfo" data-count="none">Tweet</a>
+                    <div class="fb-share-button" data-href="https://www.facebook.com/groups/4uainfo/" data-type="button"></div>
                 </div>
             </footer>
         </div>
