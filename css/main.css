@@ -44,9 +44,17 @@
 }
 .sos {
     color: #777;
-    min-height: 585px;
     position: relative;
     padding: 15px;
+}
+.killed .sos {
+  min-height: 550px;
+}
+.affected .sos {
+  min-height: 585px;
+}
+.helped .sos {
+  min-height: 335px;
 }
 .missing .sos {
   min-height: 535px;
@@ -130,13 +138,21 @@
 /* ==========================================================================
     Media Queries
     ========================================================================== */
-
-@media only screen and (min-width: 1140px) {
-    
+@media only screen and (max-width: 991px) {
+  .killed .sos {
+    min-height: 480px;
+  }
+  .affected .sos {
+    min-height: 500px;
+  }
+  .helped .sos {
+    min-height: 290px;
+  }  
+  .missing .sos {
+    min-height: 440px;
+  }
 }
-@media only screen and (min-width: 768px) {
 
-}
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
 
 }
